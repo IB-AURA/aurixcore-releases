@@ -1,0 +1,19 @@
+﻿name: I am looking for something
+description: A feature, a provider, a model, or a way of working you would like AurixCore to have
+labels: ["idea"]
+body:
+  - type: textarea
+    id: want
+    attributes:
+      label: What are you looking for?
+      description: Tell us what you are trying to do. The goal matters more than the solution.
+    validations:
+      required: true
+  - type: textarea
+    id: today
+    attributes:
+      label: How do you do it today?
+  - type: input
+    id: apps
+    attributes:
+      label: Which app or tool would use it?

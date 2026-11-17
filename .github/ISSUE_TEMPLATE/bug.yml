@@ -1,0 +1,36 @@
+﻿name: Something is wrong
+description: A bug, a crash, or something that did not work as expected
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: Thank you for telling us. Please do not paste API keys, tokens or private files.
+  - type: input
+    id: version
+    attributes:
+      label: AurixCore version
+      description: Settings > Hub shows it
+    validations:
+      required: true
+  - type: dropdown
+    id: system
+    attributes:
+      label: Your system
+      options: [Windows, Linux, macOS (Apple silicon), macOS (Intel), Docker]
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you do, and what went wrong?
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect instead?
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else (error text, screenshot)
