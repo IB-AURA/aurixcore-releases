@@ -4,6 +4,14 @@
 
 By **IB Aura**.
 
+<p align="center">
+  <a href="https://github.com/IB-AURA/aurixcore-releases/releases/latest/download/aurixcore-windows-x64.zip"><img alt="Download for Windows" src="https://img.shields.io/badge/Download%20for-Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white"></a>
+  <a href="https://github.com/IB-AURA/aurixcore-releases/releases/latest/download/aurixcore-macos-arm64.tar.gz"><img alt="Download for macOS (Apple silicon)" src="https://img.shields.io/badge/Download%20for-macOS%20(Apple%20silicon)-000000?style=for-the-badge&logo=apple&logoColor=white"></a>
+  <a href="https://github.com/IB-AURA/aurixcore-releases/releases/latest/download/aurixcore-macos-intel.tar.gz"><img alt="Download for macOS (Intel)" src="https://img.shields.io/badge/Download%20for-macOS%20(Intel)-555555?style=for-the-badge&logo=apple&logoColor=white"></a>
+  <a href="https://github.com/IB-AURA/aurixcore-releases/releases/latest/download/aurixcore-linux-x64.tar.gz"><img alt="Download for Linux" src="https://img.shields.io/badge/Download%20for-Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"></a>
+</p>
+
+<p align="center"><sub>One click, no account needed. Phones and tablets need no download: open AurixCore in the browser and pair with the QR code.</sub></p>
 ---
 
 ## The story
@@ -50,14 +58,14 @@ Any OpenAI-style client works the same way: change the base URL and use a role a
 
 ## Download
 
-Latest builds are on the **[Releases page](../../releases/latest)**.
+Pick the button above or a file below. All builds are on the **[Releases page](../../releases/latest)**.
 
-| System | File |
+| System | Download |
 |---|---|
-| Windows 10 / 11 | `aurixcore-<version>-windows-x64.zip` |
-| Linux (x64) | `aurixcore-<version>-linux-x64.tar.gz` |
-| macOS (Apple silicon) | `aurixcore-<version>-macos-arm64.tar.gz` |
-| macOS (Intel) | `aurixcore-<version>-macos-intel.tar.gz` |
+| Windows 10 / 11 | [aurixcore-windows-x64.zip](https://github.com/IB-AURA/aurixcore-releases/releases/latest/download/aurixcore-windows-x64.zip) |
+| macOS (Apple silicon) | [aurixcore-macos-arm64.tar.gz](https://github.com/IB-AURA/aurixcore-releases/releases/latest/download/aurixcore-macos-arm64.tar.gz) |
+| macOS (Intel) | [aurixcore-macos-intel.tar.gz](https://github.com/IB-AURA/aurixcore-releases/releases/latest/download/aurixcore-macos-intel.tar.gz) |
+| Linux (x64) | [aurixcore-linux-x64.tar.gz](https://github.com/IB-AURA/aurixcore-releases/releases/latest/download/aurixcore-linux-x64.tar.gz) |
 | Docker (any system) | `ghcr.io/ib-aura/aurixcore` |
 
 Every file has a `.sha256` next to it so you can verify it. On macOS, if the system blocks the first start, right-click the file and choose **Open** once.
